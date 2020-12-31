@@ -1,0 +1,136 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(56, 255, 189);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.butt{
+    cursor: pointer;
+    overflow: hidden;
+}
+.entry{
+    width: 60%;
+    margin-bottom: 20px;
+    height: 5rem;
+    text-align: right;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 0;
+    height: 40vh;
+    /* box-shadow: -2px 2px 2px ; */
+    box-shadow: 1px -1px 1px ;
+}
+.roww{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    border-color: black;
+    flex-direction: row;
+    box-shadow: -1px 1px 1px ;
+}
+
+.teir-1{
+    height: 50%;
+    padding-left: 15px;
+    width: 100%;
+    
+}
+.teir-2{
+    height: 50%;
+    width: 100%;
+    padding-left: 15px;
+    /* box-shadow: -1px 1px 1px ; */
+    /* box-shadow: 2px 2px 2px black; */
+}
+.btn-row{
+    box-shadow: -1px 0px 1px black;
+    width: 7%;
+    height: 100%;
+    flex-direction: column;
+}
+/* Row 1 */
+
+.btn-2-row-1{
+    box-shadow: -1px 1px 1px ;
+    width: 9%;
+    height: 100%;
+    flex-direction: column;
+}
+
+/* Row 2 */
+
+.btn-2-row-2{
+    box-shadow: -1px 1px 1px ;
+    width: 9%;
+    height: 100%;
+    flex-direction: column;
+}
+
+/* Row 3 */
+
+.btn-2-row-3{
+    box-shadow: -1px 1px 1px ;
+    width:11%;
+    height: 100%;
+    flex-direction: column;
+}
+.btn-3-row-3{
+    box-shadow: -1px 1px 1px ;
+    width: 12%;
+    height: 100%;
+    flex-direction: column;
+}
+
+/* Row 4 */
+
+.btn-2-row-4{
+    box-shadow: -1px 1px 1px ;
+    width: 15%;
+    height: 100%;
+    flex-direction: column;
+}
+
+/* Row 5 */
+
+.btn-2-row-5{
+    box-shadow: -1px 1px 1px ;
+    width: 10%;
+    height: 100%;
+    flex-direction: column;
+}
+.btn-3-row-5{
+    box-shadow: -1px 1px 1px ;
+    width: 7%;
+    height: 100%;
+    flex-direction: column;
+}
+.btn-row-5{
+    box-shadow: -1px 1px 1px ;
+    width: 40%;
+    height: 100%;
+    flex-direction: column;
+}
+
+/*  All Buttons */
+
+.butt:hover{
+    background-color: rgb(158, 244, 247);
+    box-shadow: 1px 1px 1px black;
+}
+.butt:active{
+    background-color: aquamarine;
+    position: relative;
+    top: 1px;
+    right: -1px;
+    box-shadow: 0px 0px 1px black;
+}
